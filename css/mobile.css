@@ -1,0 +1,99 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero {
+    padding: 112px 0;
+  }
+
+  .feature {
+    padding: 96px 0;
+  }
+  .work {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+
+  .customer-item {
+    width: 190px;
+    height: 88px;
+    margin-bottom: 72px;
+  }
+
+  .customer-svg {
+    width: 110px;
+    height: 56px;
+  }
+
+  .customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-item:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .customer-item:nth-child(n + 5) {
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-text {
+    margin: 0 auto;
+  }
+  .box-logo {
+    margin-bottom: 72px;
+  }
+  .box-social {
+    margin-bottom: 72px;
+  }
+  .footer-title {
+    text-align: center;
+  }
+
+  .footer-social-list {
+    justify-content: center;
+  }
+  .form-title {
+    text-align: center;
+  }
+  .footer-label {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .footer-input-form {
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  .footer-button {
+    margin: 0 auto;
+  }
+
+  .modal {
+    width: 392px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .work {
+    display: none;
+  }
+  .feature-icon {
+    display: none;
+  }
+}
