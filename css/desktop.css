@@ -209,10 +209,22 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/desktop-hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1440px 600px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/desktop-hero-bg-2x.jpg);
+    }
   }
 
   .hero-title {
@@ -456,6 +468,8 @@
   .customer-item {
     width: 168px;
     height: 88px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 
   .customer-link {
@@ -631,6 +645,8 @@
 
   .box-logo {
     margin-right: 120px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .footer-logo {
