@@ -27,36 +27,49 @@
     <!-----------header------------>
     <header class="header">
       <div class="container header-flex">
-        <nav class="header-nav">
-          <a class="header-logo" href="./index.html"
-            ><span class="header-span">Web</span>Studio</a
-          >
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link active" href="./index.html">Studio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link" href="./test.html">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="header-address">
-          <ul class="address-list">
-            <li class="address-item">
-              <a class="address-mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-item">
-              <a class="address-tel" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <button type="button" class="header-btn-open">
+          <svg class="header-icon-open">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="header-menu">
+          <nav class="header-nav">
+            <a class="header-logo" href="./index.html"
+              ><span class="header-span">Web</span>Studio</a
+            >
+            <button type="button" class="header-menu-close">
+              <svg class="header-icon-close">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="header-link active" href="./index.html">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="./test.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="header-address">
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main class="main">
