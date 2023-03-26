@@ -163,22 +163,22 @@ img {
 
 .address-list {
   /* display: flex; */
-  align-items: center;
+  /* align-items: center; */
   /* margin-left: 332px; */
 }
 
 .address-item:not(:last-child) {
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .address-mail,
 .address-tel {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* font-size: 16px; */
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.02em; */
   color: var(--header-address-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -214,7 +214,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-title-color);
-  margin: auto auto 48px auto;
+  margin: 0 auto 72px auto;
   max-width: 320px;
 }
 
@@ -268,9 +268,6 @@ img {
 /* .feature-list .feature-item + .feature-item { */
 /* margin-top: 72px; */
 /* } */
-.feature-item:not(:last-child) {
-  margin-bottom: 72px;
-}
 
 .feature-item {
   /* width: 264px; */
@@ -302,7 +299,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--h3-title-color);
-  text-align: center;
+  /* text-align: center; */
 }
 .feature-text {
   font-weight: 500;
