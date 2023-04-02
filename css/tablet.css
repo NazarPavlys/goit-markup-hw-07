@@ -5,6 +5,18 @@
     padding-right: 15px;
   }
 
+  .header-menu-open {
+    display: none;
+  }
+
+  .header-menu-close {
+    display: none;
+  }
+
+  .menu-social-list {
+    display: none;
+  }
+
   .header-flex {
     display: flex;
   }
@@ -15,12 +27,14 @@
 
   .header-list {
     display: flex;
+    gap: 40px;
   }
+
   .header-logo {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 76px;
+    margin-right: 120px;
 
     font-family: "Raleway";
     font-weight: 800;
@@ -43,6 +57,26 @@
     text-transform: uppercase;
     color: #4d5ae5;
   }
+
+  .header-link {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-link-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--hover-focus-color);
+  }
+
   .header-link.active::after {
     content: "";
     position: absolute;
@@ -55,14 +89,18 @@
     margin-bottom: -1px;
   }
 
-  .header-address {
-    margin: auto 0 auto auto;
-    /* margin-left: auto; */
+  .mobil-header-menu {
+    display: flex;
+    align-items: center;
   }
 
   .address-list {
+    margin-left: 122px;
+  }
+
+  .address-mail {
     display: block;
-    margin: auto 0;
+    margin-bottom: 12px;
   }
 
   .address-mail,
@@ -182,11 +220,16 @@
     margin-left: 108px;
   }
 
+  .footer-link {
+    background-color: #4d5ae5;
+  }
+
   .footer-mail-form {
     display: flex;
   }
 
   .footer-label {
+    width: 264px;
     margin-right: 24px;
   }
 }

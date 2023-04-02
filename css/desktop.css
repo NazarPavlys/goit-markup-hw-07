@@ -100,7 +100,7 @@
     font-family: "Raleway";
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -117,16 +117,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-  }
-
-  .header-flex {
-    display: flex;
-    align-items: center;
-  }
-
-  .header-nav {
-    display: flex;
-    align-items: center;
   }
 
   .header-list {
@@ -164,9 +154,9 @@
     margin-bottom: -1px;
   }
 
-  .header-item:not(:last-child) {
+  /* .header-item:not(:last-child) {
     margin-right: 40px;
-  }
+  } */
 
   .address-list {
     display: flex;
@@ -176,6 +166,10 @@
 
   .address-item:not(:last-child) {
     margin-right: 40px;
+  }
+
+  .address-mail {
+    margin-bottom: 0;
   }
 
   .address-mail,

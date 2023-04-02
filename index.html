@@ -27,23 +27,28 @@
     <!-----------header------------>
     <header class="header">
       <div class="container header-flex">
-        <button type="button" class="header-btn-open">
-          <svg class="header-icon-open">
-            <use href="./images/icons.svg#icon-menu"></use>
-          </svg>
-        </button>
-        <div class="header-menu">
+        <div class="mobil-header">
+          <a class="header-logo" href="./index.html"
+            ><span class="header-span">Web</span>Studio</a
+          >
+          <button
+            class="header-menu-open js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="header-icon-open" width="30" height="20">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="mobil-header-menu js-menu-container" id="mobile-menu">
           <nav class="header-nav">
-            <a class="header-logo" href="./index.html"
-              ><span class="header-span">Web</span>Studio</a
-            >
-            <button type="button" class="header-menu-close">
-              <svg class="header-icon-close">
+            <button class="header-menu-close js-close-menu">
+              <svg class="header-icon-close" width="8;" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
             </button>
-
-            <ul class="header-list">
+            <ul class="header-list mobile-menu">
               <li class="header-item">
                 <a class="header-link active" href="./index.html">Studio</a>
               </li>
@@ -55,20 +60,52 @@
               </li>
             </ul>
           </nav>
-          <address class="header-address">
-            <ul class="address-list">
-              <li class="address-item">
-                <a class="address-mail" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+          <div class="menu-address">
+            <address class="header-address">
+              <ul class="address-list">
+                <li class="address-item">
+                  <a class="address-mail" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="address-tel" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="menu-social-list">
+              <li class="team-social-item">
+                <a href="" class="team-link">
+                  <svg class="team-svg" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address-item">
-                <a class="address-tel" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
+              <li class="team-social-item">
+                <a href="" class="team-link">
+                  <svg class="team-svg" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="team-link">
+                  <svg class="team-svg" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="team-link">
+                  <svg class="team-svg" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
       </div>
     </header>
@@ -553,6 +590,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
